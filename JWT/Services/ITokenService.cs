@@ -2,6 +2,6 @@
 {
     public interface ITokenService
     {
-        string Generate(string userName);
+        string Generate(string userName,string role);
     }
 }
